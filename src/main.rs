@@ -416,7 +416,7 @@ fn process_file(
                         // re-insert what was there before
                         original_line.to_string()
                     } else {
-                        panic!("WTF, not supported")
+                        panic!("not supported: {}", command_line)
                     }
                 })
                 .into_owned();
